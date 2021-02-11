@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tlapps/test.thelawapp.com.au/
+    - /bin/cp -R * $DEPLOYPATH
+    

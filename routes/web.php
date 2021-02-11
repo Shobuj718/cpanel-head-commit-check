@@ -22,3 +22,6 @@ Route::get('/hello', function () {
 Route::get('/test', function () {
     return 'This is test route check';
 });
+Route::get('/test2', function () {
+    return 'This is test2 route check';
+});
